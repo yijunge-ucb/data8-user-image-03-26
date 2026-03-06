@@ -10,7 +10,7 @@ dependencies:
 
   # data8
   - attrs==25.4.0
-  # [DH-603] Install datascience package from conda forge 
+  # [DH-603] Install datascience package from conda forge
   - folium==0.20.0
   - ipykernel==6.31.0
   - ipympl==0.9.8
@@ -22,12 +22,12 @@ dependencies:
 
   # Items not in conda forge
   - pip:
-    - jupyter-tree-download==1.0.1
-  # https://github.com/berkeley-dsep-infra/datahub/issues/7669
-    - jupytutor==0.3.0
-  # Export notebooks as PDFs with Chrome
-    - nb2pdf==0.6.2
-    - nbpdfexport==0.2.1
-  # [DH-418] okpy 1.18.1 is not compatibile with otter-grader 6.0.4 because they require conflicting versions of requests
-  #  - okpy==1.18.1
-    - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
+      - jupyter-tree-download==1.0.1
+    # https://github.com/berkeley-dsep-infra/datahub/issues/7669
+      - jupytutor==0.3.0
+    # Export notebooks as PDFs with Chrome
+      - nb2pdf==0.6.2
+      - nbpdfexport==0.2.1
+    # [DH-418] okpy 1.18.1 is not compatibile with otter-grader 6.0.4 because they require conflicting versions of requests
+    #  - okpy==1.18.1
+      - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
